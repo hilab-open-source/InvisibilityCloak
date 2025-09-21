@@ -35,15 +35,25 @@ export const components = {pre: CodeBlock, table: Table}
     {
       name: "Xue Wang",
       url: "https://xueewang.github.io/",
-      institution: "Independent",
+      institution: "University of California, Los Angeles",
     },
     {
       name: "Yang Zhang",
       url: "https://yangzhang.dev/",
-      institution: "Institution Two",
+      institution: "University of California, Los Angeles",
     },
   ]}
-  conference="ACM UIST 2025, Busan, Korea"
+  
+  conference={
+    <a
+      href="https://uist.acm.org/2025/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-blue-600 underline"
+    >
+      ACM UIST 2025, Busan, Korea
+    </a>
+  }
   links={[
     {
       name: "Paper",
