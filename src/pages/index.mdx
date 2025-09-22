@@ -84,28 +84,14 @@ Cameras are in their golden age due to recent advances in visual AI techniques t
   </span>
 </Figure>
 
-## Image comparison slider
 
-An interactive, accessible slider component with keyboard navigation.
+## System Evaluation
 <Figure>
-  <ImageComparison slot="figure" client:load imageUrlOne={dogsDiffc.src} imageUrlTwo={dogsTrue.src} altTextOne="Photo of two dogs running side-by-side in shallow water, lossily compressed using the DiffC algorithm" altTextTwo="Original photo of two dogs running side-by-side in shallow water" />
-  <span slot="caption" class="block text-left">Figure1 : A photo of two dogs running side-by-side in shallow water, lossily compressed using the <a href="https://jeremyiv.github.io/diffc-project-page/">DiffC algorithm</a>.</span>
+  <Image slot="figure" source={transformer} altText="Diagram of the transformer deep learning architecture." />
+  <span slot="caption" class="block text-left">
+  Figure 2: A)  IDP across the three evaluation configurations. B) Effect of window length on user-device association.
+  </span>
 </Figure>
-
-## Two columns
-
-Use the two columns component to display two columns of content. In this example, the first column contains a figure with a YouTube video and the second column contains a figure with a custom [React](https://react.dev/) component. By default, they display side by side, but if the screen is narrow enough (for example, on mobile), they're arranged vertically.
-
-<TwoColumns>
-  <Figure slot="left">
-    <YouTubeVideo slot="figure" videoId="wjZofJX0v4M" />
-    <span slot="caption">Take a look at this YouTube video.</span>
-  </Figure>
-  <Figure slot="right">
-    <Splat slot="figure" client:idle />
-    <span slot="caption">Now look at this <a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splat</a>, rendered with a React component.</span>
-  </Figure>
-</TwoColumns>
 
 
 
