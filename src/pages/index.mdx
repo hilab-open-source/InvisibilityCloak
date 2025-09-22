@@ -23,6 +23,8 @@ import transformer from "../assets/teaser_cloak.png";
 import Splat from "../components/Splat.tsx"
 import dogsDiffc from "../assets/dogs-diffc.png"
 import dogsTrue from "../assets/dogs-true.png"
+import association from "../assets/association_flat.png"
+import eval from "../assets/eval_results.png"
 
 
 import CodeBlock from "../components/CodeBlock.astro";
@@ -78,7 +80,7 @@ Cameras are in their golden age due to recent advances in visual AI techniques t
 
 ## System Overview
 <Figure>
-  <Image slot="figure" source={transformer} altText="Diagram of the transformer deep learning architecture." />
+  <Image slot="figure" source={transformer} altText="Our system consists of a smartwatch app that streams IMU signals and obfuscation requests to an edge device, which runs our user-device association algorithm." />
   <span slot="caption" class="block text-left">
   Figure 1: Our system consists of a smartwatch app that streams IMU signals and obfuscation requests to an edge device, which runs our user-device association algorithm. This system operates under the following standard security assumptions: all wearable devices are fully compatible with the local camera system, and data on the edge device is secure from unauthorized access and cyber-attacks prior to transmission to the cloud.
   </span>
@@ -87,9 +89,16 @@ Cameras are in their golden age due to recent advances in visual AI techniques t
 
 ## System Evaluation
 <Figure>
-  <Image slot="figure" source={transformer} altText="Diagram of the transformer deep learning architecture." />
+  <Image slot="figure" source={association} altText="IDP across the three evaluation configurations." />
   <span slot="caption" class="block text-left">
-  Figure 2: A)  IDP across the three evaluation configurations. B) Effect of window length on user-device association.
+  Figure 2: IDP across the three evaluation configurations. Left: Within-user evaluation results on the *In-Lab* dataset across four scenarios. Middle: Cross-user evaluation on the *In-Lab* dataset, trained on data from 5 participants and tested on the remaining 5. Right: Cross-scene evaluation on the *In-the-Wild* dataset with different activity sets.
+  </span>
+</Figure>
+
+<Figure>
+  <Image slot="figure" source={eval} altText="IDP across the three evaluation configurations." />
+  <span slot="caption" class="block text-left">
+  Figure 3: A) Effect of window length on user-device association. B) Effect of handedness on user-device association. C) Adjusted SUS Item Scores (0-4 scaled).
   </span>
 </Figure>
 
