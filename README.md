@@ -13,7 +13,7 @@ Figure 1: Our system consists of a smartwatch app that streams IMU signals and o
     <h4 align="center">
         <a href="https://hilab-open-source.github.io/InvisibilityCloak/" target='_blank'>
         <img src="https://img.shields.io/badge/Project Page-yellow">
-        <a href="https://dl.acm.org/doi/10.1145/3613904.3642092" target='_blank'>
+        <a href="https://dl.acm.org/doi/10.1145/3746059.3747601" target='_blank'>
         <img src="https://img.shields.io/badge/UIST_2025-Paper-green">
         </a>
         <a href="https://youtu.be/-UlUI3DfKUE?si=f70wxYkXDia_9Fjn" target='_blank'>
