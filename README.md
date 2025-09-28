@@ -19,7 +19,7 @@ Figure 1: Our system consists of a smartwatch app that streams IMU signals and o
         <a href="https://youtu.be/-UlUI3DfKUE?si=f70wxYkXDia_9Fjn" target='_blank'>
         <img src="https://img.shields.io/badge/Youtube%20Video-%23FF0000.svg?logo=YouTube&logoColor=white">
         </a>
-        <a href="https://drive.google.com/drive/folders/174mlRrNpxAdqMASRp7cAU4d0iCTQk7SA?usp=sharing" target='_blank'>
+        <a href="https://drive.google.com/drive/folders/1caPPtjg4dHysmkLXPLz_XsJEdVblDA6h?usp=drive_link" target='_blank'>
         <img src="https://img.shields.io/badge/Dataset-_Skeleton&Bounding Box-blue">
         </a>
     </h4>
