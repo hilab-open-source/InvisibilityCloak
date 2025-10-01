@@ -48,12 +48,22 @@ Figure 4: A) Effect of window length on user-device association. B) Effect of ha
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
-@inproceedings{wang2025invisible,
-  title={Invisibility Cloak: Personalized Smartwatch-Guided Camera Obfuscation},
-  author={Wang, Xue and Zhang, Yang},
-  booktitle={Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology.},
-  pages={1--15},
-  year={2025}
+@inproceedings{10.1145/3746059.3747601,
+author = {Wang, Xue and Zhang, Yang},
+title = {Invisibility Cloak: Personalized Smartwatch-Guided Camera Obfuscation},
+year = {2025},
+isbn = {9798400720376},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3746059.3747601},
+doi = {10.1145/3746059.3747601},
+booktitle = {Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology},
+articleno = {153},
+numpages = {15},
+keywords = {Camera Obfuscation; Smartwatch; User Identification; Privacy},
+location = {
+},
+series = {UIST '25}
 }
 ```
 ## License
