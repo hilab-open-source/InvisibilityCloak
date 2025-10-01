@@ -61,8 +61,6 @@ booktitle = {Proceedings of the 38th Annual ACM Symposium on User Interface Soft
 articleno = {153},
 numpages = {15},
 keywords = {Camera Obfuscation; Smartwatch; User Identification; Privacy},
-location = {
-},
 series = {UIST '25}
 }
 ```
